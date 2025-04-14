@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>my protifolio</title>
+
+    <style>
+        button{
+            margin: 20px;
+            border: none;
+            border-radius: 5px;
+            padding: 8px;
+            cursor: pointer;
+            transition: all 0.5s ease-in-out 0s;
+        }
+
+        button:hover{
+            background-color: blue;
+            transform: translateY(-5px)
+        }
+
+        .submit:hover{
+            background-color: rgb(4, 209, 232);
+            
+            
+        }
+
+        .submit{
+            background-color: rgb(0, 229, 255);
+            color: white;
+            
+        
+        }
+
+        .submit:hover{
+            background-color: white;
+            color: black;
+            
+        }
+
+
+
+        body{
+            padding-bottom: 500px;
+        font-size: 25px;}
+
+        header{
+            background-color: rgb(13, 176, 240);
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            flex-wrap: wrap;
+           
+        }
+
+        header h1{
+            color: white;
+            text-align: center;
+        }
+            
+        
+
+        img{
+            width: 200px;
+            height: 300px;
+        }
+
+        section{
+            height: 100vh;
+            border: 1px solid grey;
+            border-radius: 20px;
+            margin-bottom: 20px;
+            color: rgb(7, 7, 7);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+           
+            
+        }
+
+        main{
+            padding: 20px;
+           
+        }
+
+        h1{
+            
+            font-size: 3rem;
+            color:rgb(13, 176, 240) ;
+        }
+
+        input{
+            border-radius: 5px;
+            border: 1px solid lightgrey;
+            height: 25px;
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            height: 150px;
+        }
+
+        form div{
+            margin: 8px 0px;
+        }
+
+        strong{
+            color: black;
+        }
+            
+            
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1> welcome to my portifolio</h1>
+
+        <div class="headerdiv">
+            <a href="#about"> <button>about</button></a>
+            <a href=" #my skills"> <button>skills</button></a>
+            <a href=" #my projects"> <button>projects</button></a>
+            <a href="#contact"> <button>contact</button></a>
+        
+        </div>
+       
+    </header>
+
+    <main>
+
+        <section id="about"> <h1>k sanjeev </h1>
+
+            <img src="sanju.jpeg">
+        
+            <p>my name is <strong>sanjeev</strong><br>
+                   im from karimnagar <br></p>
+                   <p>i completed my btech from <eM>malla reddy engineering college.</eM></p>
+              <p>i have completed my courses Html,Css,javascrpit from <em>code with swaroop.</em></p>
+          
+            <P>you can <a href="https://www.youtube.com/"><strong>click here</strong></a> to check my HTML,CSS,JS projects.
+            </P></section>
+           
+           
+        <section id="my skills"> <h1>my skills</h1>
+
+            <ol>
+        
+            <li>python</li>
+            <li>c</li>
+            <li>java</li>
+            <li>html</li>
+            </ol></section>
+   
+        <section id="my projects"><h1>my projects</h1>
+
+          <table border="1" cellpadding="2" cellspacing="6">
+    
+           <tr>
+            <th>porject</th>
+            <th>description</th>
+            </tr>
+            
+           <tr><td>portifolio website</td>
+            <td>i have buit a website by using HTML,CSS&JAVASCRIPT</td>
+            </tr>
+
+           <tr><td>python simple calculator</td>
+            <td>i have built a simple calculator in the course by code with swaroop</td>
+            </tr>
+            </tr>
+            </table></section>
+    
+       <section id="contact"> <h1>contact me</h1>
+    <p>feel free to get in touch with me using the form below</p>
+    
+    <form>
+        <div> <label for="name">Name:</label>
+            <input type="text" id="name name=name"></div>
+       
+
+        <div> <label for="Email">Email:<input type="text" id="Email" name="Email">
+        </label></div>
+       
+        <div> <label>Gender:</label>
+            <label>Male <input type="radio"></label>
+            <label>Female <input type="radio"></label></div>
+        <div>  <label>select your intrest:</label>
+            <label for="reading">reading</label>
+            <input type="checkbox" id="reading" value="reading">
+            <label for="coding">coding</label>
+            <input type="checkbox" id="coding" value="coding"></div>
+     
+
+         <div> <label for="colour">select your colours:</label>
+            <select id="colour" name="colour">
+                <option>red</option>
+                <option>blue</option>
+                <option>pink</option>
+                <option>yellow</option></select>
+    </div>
+       
+        <div><label for="number">select your age:</label>
+            <input type="number" id="number" max="18"></div>
+
+            <div>   <label for="comment"> leave a comment:</label>
+                <textarea id="comment" name="comment" row="4" cols="50"></textarea></div>
+
+        <br>
+        <button type="submit" class="submit">submit</button>
+        <button type="reset">reset</button> </form></section>
+    
+
+    </main>
+
+    <footer>
+        @2024 my portifolio
+
+    </footer>
+   
+      
+
+    
+
+   
+
+    
+</body>
+</html>
